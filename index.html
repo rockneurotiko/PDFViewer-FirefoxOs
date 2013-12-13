@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <title>Pdf Viewer<em>v1.1</em></title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/headers.css">
+  <link rel="stylesheet" href="./css/lists.css">
+  <link rel="stylesheet" href="./css/settings_icons.css">
+  <link rel="stylesheet" href="./css/progress_activity.css">
+  <link rel="stylesheet" href="./css/transitions.css">
+  <link rel="stylesheet" href="./css/util.css">
+</head>
+<body>
+  <section id="index" data-position="current">
+    <section role="region">
+      <header class="fixed">
+        <menu type="toolbar">
+        <a href="#" id="refreshBtn"><span class="icon settings-icon updateBalance">refresh</span></a>
+        </menu>
+        <h1>Pdf Viewer <em>v1.1</em></h1>
+      </header>
+      <article class="content scrollable header">
+        <div data-type="list">
+          <ul id="item-list"><li><p>Please, add a pdf file in your SDCARD.</p></li></ul>
+        </div>
+      </article>
+    </section>
+  </section>
+
+  <section class="scrollable" role="region" id="headers" data-position="right">
+    <header>
+      <a id="btn-headers-back" href="#"><span class="icon icon-back">back</span></a>
+      <h1 id="title_pdf" style=" font-size: 20px; ">Name of Pdf</h1>
+    </header>
+    <div id="pdf_viewer" style=" width: 100%; height: 100%; background: #404040;"></div>
+  </section>
+  <script type="text/javascript" defer src="js/jquery.min.js"></script>
+  <script type="text/javascript" defer src="js/engine.js"></script>
+</body>
+</html>
+
